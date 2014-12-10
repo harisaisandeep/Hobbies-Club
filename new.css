@@ -1,0 +1,134 @@
+#heads
+{
+	background-image: url(images/bg/radial.jpg);
+width: 100%;
+height: 200px;
+position:absolute;
+}
+.nav { float:left; display:inline; margin-left: 10px;  width: 70%; position: absolute;top: 135px; left: 15%;}
+.nav li {float:left; padding-left:1%;display:inline; height: 50px; }
+.nav li a { float:left; display:inline; color:#F3F3F3; display: block; padding: 0 15px; height: 50px; line-height: 50px;}
+
+
+#details
+{
+
+position:absolute; text-align: center;
+font-family: futura-pt;
+top: 250px; float:right; font-size: 16px;
+width: 18%; background-color: #fff;
+height: 600px; left: 10px;
+border: solid #ccc 1px; overflow: hidden;
+}
+ #mainContent
+ {
+position:absolute;
+width: 80%;right: 1px;
+max-height: 650px;
+top: 250px; overflow: hidden;
+border: solid #ccc 2px;
+ }
+ .mini
+ {
+position: relative;
+height: 50px;
+border-bottom: solid #000 1px;
+
+ }
+ .mini:hover
+ {
+background-color: #F1CB00;z-index: 1000;
+ }
+ .active{
+background-color: #F1CB00 ; color:#E96665;
+ }
+ .mainContent{
+ 	height: 650px;overflow:auto;
+	overflow-x:hidden;
+ }
+ #eventz{
+position:relative;
+top: 50px; margin-left: 10%;
+vertical-align: text-bottom;
+width: 800px;
+ 	height: 50px;
+ 	border-top: solid #ccc 1px;
+ }
+#hdate{
+position: relative; float: right; width: 150px;text-align: center;
+background-color:#eee;
+}
+.line{
+width: 80%;
+position: relative;
+margin-left:10px;
+display: block;
+border: 1px solid #246;
+border-width: 5px 0 0;
+}
+.consistent {
+float: right;
+padding: 15px 100px;
+display:inline;
+}
+.consistent a{
+color: #999; padding: 10px;
+font-size: 13px;
+}
+.consistent a:hover{
+color: #F1CB00;
+}
+#plus{
+	position: -10px;
+}
+.para{
+margin-left:50px; font-size:18px;	
+}
+td{
+border-bottom:dotted #eee 1px;	
+}
+#login
+{
+position:absolute;
+left:40%;
+top:50%;
+opacity:0.8;z-index: 5000;
+
+}
+
+.left{
+
+float: center;
+height :500px; padding-left: 20px;
+
+
+}
+#folder{
+position: relative;
+width: 150px;
+height: 300px; overflow:auto;overflow-x:hidden; 
+border: solid #eee 2px;
+float: right; text-align: center;
+right: 10px;  
+
+}
+#box{
+
+position: relative;
+float: center;
+left: 10px;
+width: 800px;
+min-height: 500px;
+overflow-x:hidden;
+overflow: auto;;  
+}
+#images{
+float:left;display:inline; padding:20px;border:#ccc solid 1px; left: 10px; position: relative;
+text-align: center;
+
+
+
+
+
+}
+
